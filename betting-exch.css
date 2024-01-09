@@ -247,3 +247,39 @@
   padding-right: 8px;
   }
   
+  @media screen and (max-width: 667px){
+    .imgggg{
+  width: 204%;
+    }
+    .column {
+        float: none;
+    }
+    .column2 h2 {
+       
+        margin-top: 13%;
+    }
+    .column2 {
+        width: 102%;
+        height: 285px;
+        margin-top: -4%;
+    }
+    section button {
+       
+        padding: 1rem 7rem;
+    }
+
+    .Grid {
+        display: grid;
+    }
+    .GridCell {
+        padding-left: 0px;
+    }
+    .Block img {
+        width: 317px;
+    }
+    .Container2 {
+     margin-right: 0%;
+     margin-left: 6%;
+    }
+   
+  }

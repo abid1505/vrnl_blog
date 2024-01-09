@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.BACKGROUND_IMAGE_RENDEREDapi {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.24) 0%, rgba(0, 0, 0, 0.24) 100%), url(//img1.wsimg.com/isteam/ip/e14dbb08-0d79-423a-ba97-e608985bacf3/prapoth-panchuea-_lTF9zrF1PY-unsplash.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m);
+    background-size: auto, cover;
+    background-position: center;
+    min-height: 200px;
+
+}
+
+.SectionBanner {
+
+    padding-bottom: 71px;
+    padding-top: 71px;
+}
+
+.SECTION_TITLE_RENDERED {
+    color: rgb(255, 255, 255);
+    font-family: 'Cabin', arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.CardBannerapi {
+    display: flex;
+
+}
+
+.CardBannerBlockapi1 {
+    background-color: rgb(64, 64, 64);
+    letter-spacing: 0.063em;
+    padding-left: 32px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Lato, arial, sans-serif;
+    /* width: auto; */
+    /* height: 75px; */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 36px;
+    padding-left: 36px;
+}
+
+.CardBannerBlocksp {
+    margin-top: 16px;
+}
+
+.CardBannerBlockh1 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.Containersapi {
+    padding-right: 21%;
+    padding-left: 21%;
+}
+
+
+.CardBannerBlockapi1:hover {
+    background-color: transparent;
+    color: rgb(219, 219, 219);
+    box-shadow: inset 0 0 0 2px;
+}
+
+
+
+/* ------- */
+
+
+.Sectionapi{
+padding-top: 40px;
+padding-right: 24px;
+    padding-left: 24px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.Blockapi{
+margin-bottom: 32px;
+}
+
+.headingapi{
+    font-size: 22px;
+    font-family: 'Cabin', arial, sans-serif;
+    letter-spacing: 1px;
+    color: rgb(27, 27, 27);
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.separatorapi{
+    margin-top: 16px;
+}
+
+.Gridapi1{
+    display: flex;
+}
+
+.CONTENT_MEDIA_HEADLINE1_RENDEREDapi{
+margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: Lato, arial, sans-serif;
+}
+.CONTENT_MEDIA_DESCRIPTION1_RENDEREDapi2{
+font-size: 16px;
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+    font-family: Lato, arial, sans-serif;
+}
+
+
+
