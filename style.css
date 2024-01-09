@@ -80,7 +80,7 @@ body {
 
 .home {
     width: 100%;
-    height: 60em;
+    height: 84em;
     background-position: center;
     background-size: auto, cover;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.66) 100%), url("/assets/images/home_back.webp");
@@ -378,5 +378,280 @@ body {
 }
 
 .home_main{
-padding-top: 150px;
+    padding-top: 148px;
+   
+    display: flex;
+    justify-content: center;
 }
+
+.home_hero_para{
+    font-size: 72px;
+    width: 1145px;
+    color: white;
+    line-height: 1.5;
+}
+
+.home_hero_p{
+
+    color: white;
+    margin-left: 23%;
+    font-size: 24px;
+    width: 48%;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: -38px;
+}
+
+.btn_hero{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.btn_home{
+    padding: 12px;
+    height: 56px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn_home:hover{
+    background: transparent;
+    border: 1px solid gray;
+    color: gray;
+}
+
+/* <===========about sec start here=================> */
+
+.about_sec{
+    padding-top: 40px;
+
+}
+
+.anout_main_sec{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.About_sec_head{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.images_ABOUT{
+    margin: 0 auto;
+    width: 65%;  
+}
+
+.about_img{
+    width: 100%;
+}
+.about_header_1{
+    font-size: 29px;
+    font-weight: 400;
+    color: black;
+}
+
+.about_p{
+    font-size: 19px;
+    color: #464545;
+}
+
+
+
+
+
+/* <===========about sec end here =================> */
+
+
+/* <===========start sec end start =================> */
+
+
+
+.card_sec_home{
+padding-top: 40px;
+}
+
+/* .cards_main{
+    width: 31%;
+
+} */
+
+
+.cards_sec{
+    background: #f7f7f7;
+    padding: 20px;
+    height: 550px;
+    border-radius: 5px;
+}
+
+.cards_header{
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.card_param{
+    font-size: 20px;
+    color: #464545;
+
+}
+
+.card_row{
+    display: flex;
+    margin: 0 auto;
+    width: 64%;
+    gap: 5%;
+   
+}
+/* <===========card sec end here =================> */
+
+/* <===========WHITE LABEL sec start  here =================> */
+.Whitelabel_sec{
+    padding-top: 50px;
+}
+
+.white_main{
+    margin: 0 auto;
+    width: 65%;
+}
+
+.white_con_txt{
+    display: flex;
+    gap: 5%;
+    
+}
+
+.white_col1{
+    width: 68%;
+}
+
+.white_h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+
+}
+.white_p1{
+    font-size: 20px;
+    color: #464545;
+    line-height: 1.4;
+
+}
+
+.white_btn{
+    padding: 12px;
+    height: 65px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: black;
+    color: gray;
+    margin-top: 35px;
+}
+
+.white_btn:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.white_ul{
+    font-size: 20px;
+    color: #464545;
+    line-height: 1.4;
+
+}
+
+
+
+/* <===========WHITE LABEL sec end  here =================> */
+
+
+/* <============= turnkey white label start ==================> */
+
+.turnkey_head{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 35px;
+}     
+
+.turnkey_sec{
+    display: flex;
+    gap: 5%;
+}
+
+.turn_col1{
+    width: 61%;
+}
+/* <============= turnkey white label end ==================> */
+
+
+
+/* <======================= exchange white label sec star here ====================> */
+
+.exchange_pro{
+    display: flex;
+    gap: 5%;
+}
+
+.exhnge_white{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    margin-top: 0px ;
+
+}
+
+.betsoft_row{
+    display: flex;
+    gap: 5%;
+}
+
+.bet_soft{
+    padding-top: 45px;
+}
+
+.bet_para{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #464545;
+
+}
+
+.net_soft_head{
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.exch_btn{
+  width: 150px;  
+  height: 56px;
+  font-size: 18px; 
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #000000;
+  color: gray;
+}
+
+.exch_btn:hover{
+    background-color: white;
+    color: #000000;
+}
+
+.sky_exch_sec{
+    padding-top: 45px;
+
+}
+
+.sky_exch_row{
+display: flex;
+gap: 5%;
+justify-content: center;
+align-items: center;
+}
+/* <======================= exchange white label sec star here ====================> */
