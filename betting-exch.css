@@ -1,0 +1,249 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .imgggg{
+  width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column2 {
+      float: left;
+      width: 50%;
+      padding: 0px;
+      height: 504px;
+      background-color: black;
+  }
+  .column2 h2{
+      color: #fff;
+      font-size: 42px;
+      text-align: center;
+      font-family: 'Cabin', arial, sans-serif;
+      margin-top: 20%;
+      letter-spacing: 1px;
+      line-height: 1.25;
+  }
+  
+  
+  
+  
+  
+  #wrapper {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      width: 80% !important;
+      margin: 0 auto;
+    }
+    section button {
+      margin: 0 auto;
+      font-size: 16px;
+      padding: 1rem 2.5rem;
+      display: block;
+      background-color: #ffffff;
+      border: 1px solid transparent;
+      color: #000000;
+      font-weight: 300;
+      -webkit-border-radius: 3px;
+      border-radius: 0px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      min-height: 56px;
+      margin-top: 32px;
+      font-family: Lato, arial, sans-serif;
+    }
+    
+    section button:hover {
+      background-color: #000000;
+      color: rgb(94, 94, 94);
+      border-color: rgb(94, 94, 94);
+      box-shadow: inset 0 0 0 2px;
+    }
+  
+  
+  
+  
+    .x-el-section {
+      padding-top: 40px !important;
+  }
+  .Container2 {
+      margin-right:10%;
+      margin-left: 8%;
+      padding-top: 40px;
+  
+  }
+  .Grid{
+      display: flex;
+  }
+  
+  .heading{
+  margin-bottom: 40px 
+  }
+  .GridCell{
+  padding-left: 26px;
+  }
+  .Block img{
+  width: 350px;
+  }
+  .separator{
+  margin-top: 16px;
+  }
+  .Element{
+  font-family: 'Cabin', arial, sans-serif;
+  line-height: 1.4;
+  font-size: 22px;
+  }
+  
+  .GridCell2{
+      padding-right: 24px;
+  }
+  
+  .headingbe{
+  font-size: 24px;
+      font-family: Lato, arial, sans-serif;
+      font-weight: 400;
+      margin-bottom: 24px;
+  }
+  
+  .bettingexchangecont{
+  color: rgb(94, 94, 94);
+      font-family: Lato, arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+     
+  }
+  
+  .x1{
+    margin-bottom: 32px;
+  }
+  
+  .separator1{
+  margin-bottom: 40px;
+  }
+  
+  
+  .Container3{
+  margin-right: 8%;
+      margin-left: 8%;
+      
+  }
+  .GridCell3{
+  /* padding-left: 24px; */
+      padding-right: 26px;
+  }
+  
+  .BACKGROUND_IMAGE_RENDERED{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url(/assets/images/betting-exch-footer.webp);
+    background-position: center;
+    /* min-height: 200px; */
+    background-size: auto, cover;
+  }
+  
+  .heading4{
+  font-size: 44px;
+      color: rgb(255, 255, 255);
+      font-family: 'Cabin', arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+  .SectionBanner{
+  padding-bottom: 40px;
+      padding-top: 40px;
+      min-height: 200px;
+  }
+  
+  .CardBanner4{
+  display: flex;
+  }
+  
+  .noopener{
+    padding-left: 32px;
+    padding-top: 0px;
+    /* flex-grow: 1; */
+    /* width: auto; */
+    background-color: rgb(64, 64, 64);
+    min-height: 52px;
+    padding-bottom: 8px;
+    padding-top: 13px;
+    padding-right: 32px;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 16px;
+      color: rgb(255, 255, 255);
+      font-family: Lato, arial, sans-serif;
+  }
+  
+  .noopener:hover{
+  background-color: transparent;
+  color: rgb(219, 219, 219);
+  box-shadow: inset 0 0 0 2px;
+  }
+  
+  
+  .Container4{
+  margin-right: 12%;
+      margin-left: 12%;
+  }
+  
+  .CardBanner4{
+      padding-right: 24px;
+      padding-top: 24px;
+  }
+  
+  .Widget4{
+  background-color: rgb(0, 0, 0);
+  }
+  .Section4{
+  padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  .FOOTER_BUSINESS_NAME_RENDERED{
+    color: rgb(226, 226, 226);
+    margin-bottom: 16px;
+  }
+  
+  .copy{
+  color: rgb(150, 150, 150);
+  }
+  
+  .Container4-1{
+  padding-right: 24px;
+      padding-left: 24px;
+      padding-bottom: 24px;
+      text-align: center;
+      font-family: Lato, arial, sans-serif;
+  }
+  .Grid4{
+  display: flex;
+  font-family: Lato, arial, sans-serif;
+  font-size: 14px;
+  }
+  .CardBannerBlock4-1{
+  padding-left: 8px;
+  }
+  .CardBannerBlock4{
+  padding-right: 8px;
+  }
+  
