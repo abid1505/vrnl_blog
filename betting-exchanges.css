@@ -2487,4 +2487,20 @@
                 min-height: 100vh;
             }
        
-       
+            .casino {
+                animation: 1.2s linear infinite color-text-keyframes;
+                }
+                @keyframes color-text-keyframes {
+                0% {
+                color: red;
+                }
+                33.3% {
+                color: #ecba00;
+                }
+                66.6% {
+                color: #ff7d00;
+                }
+                to {
+                color: #9b0a16;
+                }
+                }
