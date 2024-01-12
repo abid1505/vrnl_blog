@@ -1309,7 +1309,7 @@
             }
 
             .x .c1-7g:hover {
-                background-color: rgb(255, 255, 255)
+                background-color: rgb(0, 0, 0)
             }
 
             .x .c1-7l {
@@ -2244,7 +2244,7 @@
 
             @media (min-width: 1024px) {
                 .x .c1-7j:hover {
-                    background-color:transparent
+                    background-color:rgb(145, 143, 143)
                 }
             }
 
@@ -2503,4 +2503,8 @@
                 to {
                 color: #9b0a16;
                 }
+                }
+
+                .backs_c{
+                    background-color: #595d6d;
                 }
