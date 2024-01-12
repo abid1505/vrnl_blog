@@ -4099,7 +4099,7 @@ a {
 }
 
 .theme-dark-background h1,.theme-dark-background h2,.theme-dark-background h3,.theme-dark-background h4,.theme-dark-background p,.theme-dark-background .eyebrow,.theme-dark-background a,.theme-dark-background blockquote,.theme-dark-background cite,.theme-dark-background label,.theme-dark-background figcaption {
-    color: #fff
+    color: #000000
 }
 
 .theme-dark-background a::after {
@@ -4592,7 +4592,7 @@ margin-bottom: 2%;
 
 
  #generate-revenue-block{
-background: #60777c;
+background: #f6dfdb;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 80px;
@@ -4638,6 +4638,7 @@ text-align: center;
 max-width: 16em;
     margin-left: 22%;
     margin-right: 22%;
+    color: #000;
 }
 
 
@@ -4764,4 +4765,76 @@ font-size: 18px;
   .slider_col2{
     width: 20%;
   }
+
+
+  @media (max-width: 820px) {
+    .slider_rows_1{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .slider_col1{
+        width: 89%;
+        padding: 12px;
+    }
+    .slider_js_h{
+        width: 84%;
+        text-align: start;
+
+    }
+    .slider_col2{
+        width: 81%;
+        padding: 12px;
+    }
+
+    .slider-section{
+        height: 50vh !important;
+
+    }
+    .slider-container{
+width: 100% !important;
+    }
+    .slider-content{
+        width: 482% !important;
+
+    }
+
+    .left-generate h2{
+        max-width: 100% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    font-size: 1.5rem !important;
+    text-align: center !important;
+    }
+
+    .fea-p {
+        max-width: 100% !important;
+        margin-left: 0% !important;
+        text-align: center !important;
+        /* justify-content: center; */
+        margin-right: 0% !important;
+    }
+    .footer_main_sec {
+        width: 85%;
+
+    }
+    .inputBox{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .btns_footr{
+        margin-top: 12px;
+    }
+    .ins_f_input{
+        width: 100%;
+
+    }
+    .btn_f_1{
+width: 100%;
+    }
+  }
+
 /* <======================slider images for css start here ===========================> */
