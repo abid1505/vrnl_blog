@@ -747,7 +747,7 @@
             }
 
             .x .c1-25 {
-                color: rgb(226, 226, 226)
+                /* color: rgb(226, 226, 226) */
             }
 
             .x .c1-26 {
@@ -947,7 +947,7 @@
             }
 
             .x .c1-44 {
-                font-weight: 400
+                font-weight: 600
             }
 
             .x .c1-45:hover {
@@ -2415,6 +2415,6 @@
                 }
 
                 .sprts_bet_b{
-                    background: #a29991 !important;
+                    background:#f6dfdb!important;
 
                 }
