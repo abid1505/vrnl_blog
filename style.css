@@ -535,6 +535,19 @@ input[type="checkbox"] {
   background-size: auto, cover;
 }
 
+.contact_us_sec_con {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(226, 212, 212, 0.49) 0%,
+      rgba(0, 0, 0, 0.49) 100%
+    ),
+    url(/assets/images/sports-live-api.webp);
+  width: 100%;
+  height: 15em;
+  background-position: center;
+  background-size: auto, cover;
+}
+
 .contact_us_sec_bet {
   background-image: linear-gradient(
       to bottom,
@@ -590,6 +603,17 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
+.btns_con_1 {
+  padding: 12px;
+  width: 142px;
+  font-size: 18px;
+
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 24px;
+}
 .footer_sec_2 {
   background-color: #000000;
   width: 100%;
@@ -877,6 +901,51 @@ height: auto !important;
 .imgs_api_bets {
   width: 100% !important;
   height: auto;
+}
+
+.contact_page_main{
+  width: 88% !important;
+  padding-top: 36% !important;
+}
+.con_p_us_1{
+  font-size: 35px !important;
+  line-height: 1.5 !important;
+
+}
+.c_pages_sec{
+  height: 28em !important;
+
+}
+
+.container_h1_con{
+  font-size: 25px !important;
+  line-height: 1.5 !important;
+
+}
+.container_p_con {
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+.main_sec_container{
+width: 95% !important;
+}
+
+.container_img_row_points {
+  gap: 30px !important;
+  width: 100% !important;
+  margin-bottom: 30px;
+}
+.con_list_of_container{
+flex-direction: column;
+}
+
+.sec_btns_details{
+flex-direction: column;
+}
+.btns_buttons_90{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px
 }
 }
 
@@ -1365,3 +1434,151 @@ height: auto !important;
   }
 
 /* <================================ betting excg api pages=====================================> */
+
+
+
+/* <================================ contact us  pages=====================================> */
+.c_pages_sec{
+  width: 100%;
+  height: 35em;
+  background-position: center;
+background-image: url('/assets/images/banner_imgs.webp');
+}
+.contact_us_row{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact_page_main{
+  margin: 0 auto;
+  width: 65%;
+  padding-top: 10%;
+}
+.con_p_us_1{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+.div_btns{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.con_btns_12{
+  width: 150px;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid #f3f3f3;
+  background: transparent;
+  color: white;
+  border-radius: 24px;
+  height: 48px;
+}
+
+.container_sec_1{
+  margin-top: 5%;
+}
+
+.main_sec_container{
+  margin: 0 auto;
+  width: 65%;
+}
+.container_h1_con{
+  margin-bottom: 19px;
+  text-align: center;
+  font-size: 40px;
+
+}
+.container_p_con{
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.pointer_list{
+  display: flex;
+  gap: 2%;
+}
+
+.container_img_row_points{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 25%;
+}
+.con_list_of_container{
+  margin-top: 5%;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+
+.pointer_list p{
+  font-size: 18px;
+  color: #383232;
+  cursor: pointer;
+}
+
+.fa-circle-check{
+  font-size: 18px;
+}
+
+.fa-circle-check:hover{
+  color: #608cf5;
+}
+.pointer_list a{
+text-decoration: none;
+}
+
+.pointer_list p:hover{
+  color: #608cf5;
+}
+
+.btns_whatsapp{
+  display: flex;
+  justify-content: center;
+}
+.whats_bts_bn{
+  padding: 6px;
+  width: 261px;
+  background: #1f2d45;
+  border-radius: 24px;
+  color: white;
+  font-size: 18px;
+  margin-top: 4%;
+}
+
+.i8images{
+  width: 26px;
+  height: 26px;
+}
+
+.sec_param_data_h{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 30px;
+
+}
+
+.sec_param_data_p{
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.5;
+
+}
+.whatspara_sec_para{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.sec_btns_details{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+/* <================================ contact us  pages=====================================> */
+
+
