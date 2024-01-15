@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .D_Widget{
 background-color: rgb(0, 0, 0);
 }
@@ -327,4 +330,97 @@ text-align: left;
     font-weight: 400;
     font-family: Lato, arial, sans-serif;
     font-size: 14px;
+}
+.D_fotgridcell{
+    padding-right: 20%;
+}
+
+@media  (max-width: 667px){
+
+    .D_Grid {
+      
+        display: contents;
+    }
+    .D_GridCell {
+        max-width: 100%;
+        padding-left: 0px;
+
+    padding-right: 0px;
+    }
+
+    .D_VerticalBox {
+        padding-left: 0px;
+     
+        padding-right: 0px;
+   
+    }
+    .D_h1 {
+        font-size: 32px;
+    }
+    .D_group2 {
+        margin-top: 0%;
+    }
+
+.D_betcontainer2 {
+    padding-right: 15px;
+    padding-left: 15px;
+   
+    width: 370px;
+}
+
+.D_betimg2 {
+   
+    margin-bottom: 32px;
+}
+.D_betgrid2 {
+    display: contents;
+    
+}
+
+.D_betcontainer3 {
+    width: 370px;
+    /* padding-left: 0px; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.D_bettinggrid3 {
+
+    display: contents;
+}
+
+.D_bettinggridcell4 {
+    padding-left: 0px;
+    /* padding-right: 24px; */
+    max-width: 94.666667%;
+}
+
+
+.D_betcardbanner {
+  
+    display: contents;
+}
+
+.D_betgridcell3 {
+    max-width: 94.666667%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.D_betgridcell5 {
+    padding-left: 0px;
+    padding-right: 24px;
+}
+
+.D_betfotgrid {
+    display: contents;
+}
+.D_copy{
+text-align: center;
+}
+.D_fotgridcell{
+    padding-right: 10%;
+}
+.D_betfotDetailsAlpha {
+    margin-bottom: 5%;
+}
 }
