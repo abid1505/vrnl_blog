@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/betting-exchanges.css">
+    <link rel="stylesheet" href="/style.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,44 @@
 </head>
 
 <body class="x">
+
+    <header class="header" id="navigation-menu">
+        <nav class="navbar">
+          <a href="/index.html" class="nav-logo js-anchor-link"
+            >Sport Betting Exchange</a
+          >
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link js-anchor-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/betting-exchanges.html" class="nav-link js-anchor-link"
+                >Betting Exchanges</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/sports-betting-apis.html" class="nav-link js-anchor-link"
+                >Sport Betting APIs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/sports-betting-apis.html" class="nav-link js-anchor-link"
+                >Betfair API Provider</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/contact-us.html" class="nav-link js-anchor-link casino"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
 
     <!-- -------------- -->
     <div id="50fb37c8-d037-4dde-b5ca-1e030cf8aab3"
@@ -335,6 +373,26 @@
             </div>
         </div>
     </div>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+  
+        hamburger.addEventListener("click", mobileMenu);
+  
+        function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+        const navLink = document.querySelectorAll(".nav-link");
+  
+        navLink.forEach((n) => n.addEventListener("click", closeMenu));
+  
+        function closeMenu() {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      </script>
 
 </body>
 

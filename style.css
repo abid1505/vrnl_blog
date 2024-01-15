@@ -1030,3 +1030,338 @@ height: auto !important;
 }
 
 /* <================================sport betting api pages=====================================> */
+
+
+/* <================================ betting exch api pages=====================================> */
+
+.D_Widget{
+  background-color: rgb(0, 0, 0);
+  }
+  .D_connectnow:hover{
+  background-color: transparent;
+  color: rgb(94, 94, 94);
+  box-shadow: inset 0 0 0 2px;
+  }
+  .D_SplitLayout{
+  margin-right: auto;
+      margin-left: auto;
+      padding-right: 24px;
+      padding-left: 24px 
+  }
+  
+  .D_Grid{
+  margin-left: -24px;
+      margin-right: -24px;
+      margin-bottom: 0px;
+      display: flex;
+  }
+  
+  
+  .D_Block{
+  margin-left: -24px;
+      margin-right: -24px;
+      margin-bottom: -5px;
+  }
+  
+  
+  .D_block2{
+      margin-top: 32px;
+      text-align: center;
+  }
+  .D_img{
+  width: 100%;
+  }
+  .D_GridCell{
+  max-width: 50%;
+      padding-left: 24px;
+      /* padding-bottom: 48px; */
+      padding-right: 24px;
+  }
+  
+  .D_VerticalBox{
+  padding-left: 32px;
+      padding-bottom: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+  }
+  .D_h1{
+  font-size: 44px;
+      text-align: center;
+      line-height: 1.25;
+      color: rgb(226, 226, 226);
+      font-family: 'Cabin', arial, sans-serif;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+  }
+  
+  .D_connectnow{
+  width: auto;
+      color: rgb(48, 48, 48);
+      min-height: 43px;
+      padding-bottom: 8px;
+      padding-top: 8px;
+      padding-right: 35px;
+      display: inline-flex;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      align-items: center;
+      text-decoration: none;
+      cursor: pointer;
+      padding-left: 35px;
+      font-family: Lato, arial, sans-serif;
+  }
+  .D_group2{
+  margin-top: 17%;
+  }
+                  /* =================== */
+                  .D_betsection2{
+                  padding-bottom: 40px;
+                  padding-top: 40px;
+                  }
+  
+  
+  .D_betcontainer2{
+                  padding-right: 24px;
+      padding-left: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1160px;
+  }
+  
+  .D_betcontainerh2{
+  font-size: 22px;
+      color: rgb(27, 27, 27);
+      margin-bottom: 40px;
+      line-height: 1.4;
+      font-family: 'Cabin', arial, sans-serif;
+      letter-spacing: 1px;
+  }
+  .D_bethr{
+  margin-top: 16px;
+  }
+  
+  .D_betgrid2{
+  display: flex;
+      font-family: Lato, arial, sans-serif;
+  }
+  
+  .D_gridcell2{
+  flex-basis: 33.33333333333333%;
+      /* padding-left: 24px; */
+      padding-right: 24px;
+  }
+  
+  .D_betimg2{
+  max-width: 100%;
+  }
+  
+  .D_betgridcell3{
+  max-width: 66.66666666666666%;
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+  .D_betContentBasic{
+  margin-bottom: 32px;
+  }
+  
+  .D_betHeadingDelta{
+  margin-bottom: 24px;
+      font-size: 22px;
+      color: rgb(27, 27, 27);
+      line-height: 1.25;
+      font-weight: 400;
+  }
+  
+  .D_betBodyAlpha{
+  color: rgb(94, 94, 94);
+      line-height: 1.5;
+      font-weight: 400;
+  }
+  
+  .D_betCONTENT_HEADLINE2_RENDERED2{
+  font-size: 22px;
+      line-height: 1.25;
+      font-weight: 400;
+      margin-bottom: 24px;
+  }
+  
+  .D_betBodyAlpha2{
+  font-size: 16px;
+      color: rgb(94, 94, 94);
+      line-height: 1.5;
+      font-family: Lato, arial, sans-serif;
+  }
+  
+  /* ================ */
+  
+  .D_betsection3{
+  padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  .D_betcontainer3{
+  width: 1160px;
+      font-size: 16px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-right: 24px;
+      padding-left: 24px;
+  }
+  
+  .D_betheading3{
+  font-size: 22px;
+      margin-bottom: 40px;
+      line-height: 1.4;
+      font-family: 'Cabin', arial, sans-serif;
+      letter-spacing: 1px;
+      font-weight: 700;
+  }
+  
+  .D_bethr3{
+      margin-top: 16px;
+  }
+  .D_bettinggrid3{
+  margin-left: -24px;
+      margin-right: -24px;
+      display: flex;
+  }
+  
+  .D_bettinggridcell4{
+  padding-left: 24px;
+      padding-right: 24px;
+      max-width: 66.66666666666666%;
+      flex-basis: 66.66666666666666%;
+  }
+  .D_betHeadingDeltah4{
+  margin-bottom: 24px;
+      font-size: 22px;
+      max-width: 100%;
+      /* line-height: 1.25; */
+      font-weight: 400;
+      font-family: Lato, arial, sans-serif;
+  }
+  
+  .D_betgridcell5{
+  padding-left: 24px;
+      padding-right: 24px;
+  }
+  
+  .D_betimghori {
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url(//img1.wsimg.com/isteam/ip/e14dbb08-0d79-423a-ba97-e608985bacf3/julia-joppien-IojCPQ2rWe8-unsplash.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m);
+      background-repeat: no-repeat;
+      background-blend-mode: normal;
+      background-size: auto, cover;
+  }
+  .D_betsectionbanner{
+  /* min-height: 200px; */
+      background-color: transparent;
+      padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  .D_betcontainer4{
+  width: 1160px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 100%;
+      padding-right: 24px;
+      padding-left: 24px;
+  }
+  
+  .D_betcardbanner{
+  flex-direction: row;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      padding-right: 24px;
+      padding-left: 24px;
+      padding-bottom: 24px;
+      padding-top: 24px;
+  }
+  .D_CardBannerBlock1{
+  padding-right: 8px;
+  }
+  
+  .D_betHeadingEpsilon{
+  font-size: 44px;
+      line-height: 1.125;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      font-family: 'Cabin', arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+  .D_betCardBannerBlock2{
+  max-width: 50%;
+      padding-left: 8px;
+  }
+  
+  .D_betconnect{
+  color: #fff;
+      width: auto;
+      background-color: rgb(64, 64, 64);
+      min-height: 56px;
+      /* padding-bottom: 8px; */
+      /* padding-top: 8px; */
+      padding-right: 32px;
+      display: inline-flex;
+      padding-left: 32px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      /* max-width: 100%; */
+      align-items: center;
+      font-family: Lato, arial, sans-serif;
+  }
+  
+  .D_betconnect:hover {
+      color: rgb(219, 219, 219);
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px;
+  }
+  /* ============ */
+  .D_betwidget2{
+      background-color: rgb(0, 0, 0);
+  }
+  
+  .D_betfotsec{
+      padding-bottom: 40px;
+      padding-top: 40px;
+  }
+  
+  .D_betfotcont{
+  width: 1160px;
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 100%;
+      padding-right: 24px;
+      padding-left: 24px;
+  }
+  
+  .D_betforcont2{
+  padding-bottom: 24px;
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+  .D_betfotBodyAlpha{
+  color: rgb(226, 226, 226);
+      font-weight: 700;
+      font-family: Lato, arial, sans-serif;
+      text-align: center;
+      line-height: 1.5;
+  }
+  .D_betfotgrid{
+  display: flex;
+  }
+  
+  .D_betfotDetailsAlpha{
+  text-align: left;
+      color: rgb(150, 150, 150);
+      line-height: 1.5;
+      font-weight: 400;
+      font-family: Lato, arial, sans-serif;
+      font-size: 14px;
+  }
+
+/* <================================ betting excg api pages=====================================> */
