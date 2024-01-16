@@ -1,20 +1,18 @@
-let currentIndex = 0;
 
-      function nextSlide() {
-        currentIndex = (currentIndex + 1) % 6; // Adjust the number based on the number of cards
-        updateSlider();
-      }
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-      function prevSlide() {
-        currentIndex = (currentIndex - 1 + 6) % 6; // Adjust the number based on the number of cards
-        updateSlider();
-      }
+hamburger.addEventListener("click", mobileMenu);
 
-      function updateSlider() {
-        const sliderContent = document.querySelector(".slider-content");
-        const cardWidth =
-          document.querySelector(".review-card").offsetWidth + 20; // Adjusted width including margin
-        sliderContent.style.transform = `translateX(${
-          -currentIndex * cardWidth
-        }px)`;
-      }
+function mobileMenu() {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}
