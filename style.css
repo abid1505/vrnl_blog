@@ -25,7 +25,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 1.5rem;
+  /* padding: 1rem 1.5rem; */
   position: fixed;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
@@ -121,8 +121,11 @@ html {
       rgba(0, 0, 0, 0.66) 0%,
       rgba(0, 0, 0, 0.66) 100%
     ),
-    url("/assets/images/home_back.webp");
+    url("/assets/images/back.jpg");
   background-repeat: no-repeat;
+}
+.img2{
+width: 20%;
 }
 
 .home_main {
@@ -673,6 +676,9 @@ input[type="checkbox"] {
   .home {
     height: 44em !important;
   }
+  .img2 {
+    width: 36%;
+}
   .home_hero_para {
     width: 89% !important;
     font-size: 30px;
