@@ -157,10 +157,11 @@ html {
 .btn_home {
   padding: 12px;
   height: 56px;
-  width: 200px;
+  width: 385px;
   font-size: 20px;
   cursor: pointer;
   font-weight: 600;
+  border-radius: 5px;
 }
 
 .btn_home:hover {
@@ -193,12 +194,14 @@ html {
 }
 .homes_imgss {
   width: 100%;
+  border-radius: 5px;
 }
 .whites_sec_new {
   margin-top: 12px;
   font-size: 29px;
   margin-bottom: 21px;
   font-weight: 500;
+  line-height: 1.5;
 }
 .whites_sec_h3 {
   margin-bottom: 20px;
@@ -253,8 +256,8 @@ html {
   color: #413c3c;
 }
 .about_sec_h {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 600;
   margin-bottom: 12px;
   color: black;
 }
@@ -396,8 +399,10 @@ html {
   width: 200px;
   background: transparent;
   border: 2px solid gray;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
 .images_response {
@@ -956,6 +961,14 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   margin-top: 12px
+}
+
+.col_sec_about{
+width: 100% !important;
+}
+.col_sec_about_2{
+  width: 100% !important;
+
 }
 }
 
