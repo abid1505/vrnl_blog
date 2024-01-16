@@ -427,6 +427,15 @@ html {
   text-align: center;
 }
 
+.col_sec_about{
+  width: 50%;
+
+}
+
+.col_sec_about_2{
+  width: 50%;
+
+}
 /* <==================================homes_pages_sec start here======================> */
 
 .frq_q_sec {
