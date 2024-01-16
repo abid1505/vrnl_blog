@@ -1087,6 +1087,7 @@ flex-direction: column;
 .availrbrl_rows_cards{
   display: flex;
   gap: 1%;
+  justify-content: center;
 }
 .head_h3_av{
   margin-top: 12px;
