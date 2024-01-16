@@ -127,7 +127,7 @@ html {
 .home_main {
   padding-top: 148px;
   margin: 0 auto;
-  width: 50%;
+  width: 62%;
 }
 
 .homes_rows {
@@ -221,7 +221,7 @@ html {
 
 .anouts_mains {
   margin: 0 auto;
-  width: 65%;
+  width: 89%;
 }
 
 .About_sec_whites {
@@ -264,7 +264,7 @@ html {
 }
 .main_exchrows {
   margin: 0 auto;
-  width: 65%;
+  width: 75%;
 }
 
 .bets_rows_data {
@@ -309,7 +309,7 @@ html {
 }
 .white_main {
   margin: 0 auto;
-  width: 65%;
+  width: 81%;
 }
 
 .exchange_pro {
@@ -982,7 +982,7 @@ flex-direction: column;
 
 .bets_api_1_main{
   margin: 0 auto;
-  width: 65%;
+  width: 85%;
 }
 .bets_api_row{
   display: flex;
@@ -1035,7 +1035,7 @@ flex-direction: column;
 
 .availebel_card_main{
   margin: 0 auto;
-  width: 75%;
+  width: 97%;
 }
 .availeble_h{
   text-align: center;
@@ -1086,7 +1086,7 @@ flex-direction: column;
 
 .availrbrl_rows_cards{
   display: flex;
-  gap: 3%;
+  gap: 1%;
 }
 .head_h3_av{
   margin-top: 12px;
