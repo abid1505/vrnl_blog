@@ -67,6 +67,7 @@ html {
 .nav-logo {
   font-size: 2.1rem;
   color: whitesmoke;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 900px) {
