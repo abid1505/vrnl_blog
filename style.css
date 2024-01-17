@@ -118,7 +118,7 @@ html {
   background-position: center;
   background-size: auto, cover !important;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.66) 100%),
-    url(/assets/images/front2.png);
+    url(/assets/images/front2.webp);
   background-repeat: no-repeat;
 }
 .img2 {
@@ -551,10 +551,10 @@ input[type="checkbox"] {
 .contact_us_sec_con {
   background-image: linear-gradient(
       to bottom,
-      rgba(226, 212, 212, 0.49) 0%,
+      rgb(53 53 53 / 49%) 0%,
       rgba(0, 0, 0, 0.49) 100%
     ),
-    url(/assets/images/sports-live-api.webp);
+    url(/assets/images/contactfoot.png);
   width: 100%;
   height: 15em;
   background-position: center;
