@@ -1001,6 +1001,7 @@ input[type="checkbox"] {
 /* <================================sport betting api pages=====================================> */
 .available{
   width: 100%;
+  border-radius: 5px;
 }
 .bets_api_1_main {
   margin: 0 auto;
