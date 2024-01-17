@@ -1486,7 +1486,7 @@ strong {
     padding-right: 15px;
     padding-left: 15px;
 
-    width: 370px;
+    width: 100%;
   }
 
   .D_betimg2 {
@@ -1497,7 +1497,7 @@ strong {
   }
 
   .D_betcontainer3 {
-    width: 370px;
+    width: 100%;
     /* padding-left: 0px; */
     padding-right: 15px;
     padding-left: 15px;
@@ -1549,6 +1549,9 @@ strong {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
+}
+.D_betHeadingEpsilon{
+font-size: 25px;
 }
 }
 /* <================================ betting excg api pages=====================================> */
