@@ -554,7 +554,7 @@ input[type="checkbox"] {
       rgb(53 53 53 / 49%) 0%,
       rgba(0, 0, 0, 0.49) 100%
     ),
-    url(/assets/images/contactfoot.png);
+    url(/assets/images/contactfoot.webp);
   width: 100%;
   height: 15em;
   background-position: center;
@@ -999,7 +999,9 @@ input[type="checkbox"] {
 }
 
 /* <================================sport betting api pages=====================================> */
-
+.available{
+  width: 100%;
+}
 .bets_api_1_main {
   margin: 0 auto;
   width: 85%;
@@ -1546,7 +1548,7 @@ strong {
   height: 35em;
   background-position: center;
     background-size: auto, cover !important;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.66) 100%), url(/assets/images/contacttt.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0.66) 100%), url(/assets/images/contacttt.webp);
     background-repeat: no-repeat;
 }
 .contact_us_row {
