@@ -1001,6 +1001,7 @@ input[type="checkbox"] {
 /* <================================sport betting api pages=====================================> */
 .available{
   width: 100%;
+  border-radius: 5px;
 }
 .bets_api_1_main {
   margin: 0 auto;
@@ -1556,6 +1557,12 @@ font-size: 25px;
 .D_betconnect {
   width: 150px;
 }
+
+.D_gridcell2 {
+  
+  padding-right: 0px;
+}
+
 }
 /* <================================ betting excg api pages=====================================> */
 
@@ -2007,7 +2014,7 @@ font-size: 25px;
     padding-top: 0px;
   }
   .D_apicontainer2 {
-    width: 334px;
+    width: 394px;
   }
 
   .D_apigridlast {
