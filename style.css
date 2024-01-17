@@ -676,6 +676,7 @@ input[type="checkbox"] {
 
   .navbar {
     padding: 11px;
+    z-index: 999999;
   }
   .home_hero_para {
     width: 89% !important;
