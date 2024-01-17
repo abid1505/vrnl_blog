@@ -42,7 +42,7 @@ html {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: #ffffff;
 }
 
 .nav-menu {
@@ -1336,7 +1336,7 @@ input[type="checkbox"] {
       rgba(0, 0, 0, 0.45) 0%,
       rgba(0, 0, 0, 0.45) 100%
     ),
-    url(//img1.wsimg.com/isteam/ip/e14dbb08-0d79-423a-ba97-e608985bacf3/julia-joppien-IojCPQ2rWe8-unsplash.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1535,m);
+    url(/assets/images/exchange-white-label.webp);
   background-repeat: no-repeat;
   background-blend-mode: normal;
   background-size: auto, cover;
@@ -1464,7 +1464,7 @@ strong {
     display: contents;
   }
   .D_GridCell {
-    max-width: 100%;
+    width: 100%;
     padding-left: 0px;
 
     padding-right: 0px;
@@ -1539,6 +1539,17 @@ strong {
   .D_betfotDetailsAlpha {
     margin-bottom: 5%;
   }
+
+  .D_SplitLayout {
+    
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.D_Block {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
 }
 /* <================================ betting excg api pages=====================================> */
 
