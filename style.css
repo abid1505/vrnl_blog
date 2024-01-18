@@ -29,6 +29,7 @@ html {
   position: fixed;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
+  height: 70px;
 }
 
 .hamburger {
@@ -122,8 +123,8 @@ html {
   background-repeat: no-repeat;
 }
 .img2 {
-  width: 23%;
-    height: 100px;
+  width: 26%;
+    height: 100%;
 }
 
 .home_main {
@@ -616,10 +617,10 @@ input[type="checkbox"] {
 }
 .btns_con {
   padding: 12px;
-  width: 142px;
+  width: 150px;
   font-size: 18px;
 
-  border: 2px solid white;
+  border: 3px solid white;
   background: transparent;
   color: white;
   cursor: pointer;
@@ -630,11 +631,12 @@ input[type="checkbox"] {
   width: 142px;
   font-size: 18px;
 
-  border: 2px solid white;
+  border: 3px solid white;
   background: transparent;
   color: white;
   cursor: pointer;
   border-radius: 24px;
+  margin-top: -10px;
 }
 .footer_sec_2 {
   background-color: #000000;
@@ -654,16 +656,17 @@ input[type="checkbox"] {
 .footer_section_2 {
   margin: 0 auto;
   width: 60%;
-  padding-top: 1%;
+  padding-top: 3%;
 }
 
 .footer_text_row {
-  display: flex;
+  /* display: flex; */
+  text-align: center;
 }
 
 .F1_H {
   color: grey;
-  font-size: 18px;
+  font-size: 16px;
 }
 .F1_H2 {
   color: grey;
@@ -671,7 +674,7 @@ input[type="checkbox"] {
 }
 
 .f_col1 {
-  width: 76%;
+  /* width: 76%; */
 }
 
 /* <============================================accordian==================================> */
@@ -681,7 +684,8 @@ input[type="checkbox"] {
     height: 44em !important;
   }
   .img2 {
-    width: 70%;
+    width: 85%;
+    height: 100%;
   }
 
   .navbar {
@@ -1075,7 +1079,7 @@ input[type="checkbox"] {
   margin-bottom: 52px;
 }
 .card_api_data {
-  height: 575px;
+  height: 560px;
   width: 430px;
   background: #f1f0f1;
   border-radius: 5px;
@@ -1104,9 +1108,11 @@ input[type="checkbox"] {
 
 .btns_avail {
   padding: 7px;
-  width: 150px;
-  height: 34px;
-  cursor: pointer;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .btns_avail:hover {
@@ -1122,7 +1128,7 @@ input[type="checkbox"] {
 .head_h3_av {
   margin-top: 12px;
   font-size: 18px;
-  font-weight: 200;
+  font-weight: 700;
 }
 
 .card_divide_area {
@@ -1613,11 +1619,12 @@ font-size: 25px;
   width: 150px;
   padding: 12px;
   font-size: 18px;
-  border: 1px solid #f3f3f3;
+  border: 3px solid #f3f3f3;
   background: transparent;
   color: white;
   border-radius: 24px;
   height: 48px;
+  cursor: pointer;
 }
 
 .container_sec_1 {
@@ -1689,6 +1696,7 @@ font-size: 25px;
   color: white;
   font-size: 18px;
   margin-top: 11%;
+  cursor: pointer;
 }
 
 .i8images {
