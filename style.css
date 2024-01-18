@@ -282,13 +282,14 @@ html {
 }
 
 .whits_bets_head {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 700;
   margin-bottom: 35px;
+  text-align: center;
 }
 .h3 {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 25px;
 }
 .whites_p {
@@ -305,11 +306,15 @@ html {
 }
 
 .bets_api_img {
-  width: 100%;
+  /* width: 100%; */
   /* height: auto; */
   height: 414px;
   margin-bottom: 31px;
   border-radius: 5px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 .Whitelabel_sec {
   padding-top: 50px;
@@ -434,7 +439,7 @@ html {
 
 .turnexch_head {
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -1190,8 +1195,8 @@ input[type="checkbox"] {
   width: auto;
   color: rgb(48, 48, 48);
   min-height: 43px;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   padding-right: 35px;
   display: inline-flex;
   text-align: center;
