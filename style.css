@@ -2081,13 +2081,34 @@ margin-bottom: 4px;
   .con_sec_h2{
 font-size: 19px;
   }
+  .mains_info_casino{
+  
+  padding-top: 10%; 
+  }
 }
 
 
-@media (max-width: 280px){
+@media (max-width: 320px){
 .D_apicontainer2 {
     width: 272px;
-}}
+}
+.con_sec_h2 {
+  font-size: 17px;
+}
+.bets_apis_sec {
+
+  padding-bottom: 0px;
+}
+.whits_bets_head {
+  font-size: 20px;
+}
+.btn-whatsapp-pulses {
+  bottom: 117px;
+    right: 4px;
+    font-size: 31px;
+    padding: 25px;
+}
+}
 .whts_func_1{
   font-size: 20px;
   margin-top: 12px;
