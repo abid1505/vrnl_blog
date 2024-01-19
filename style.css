@@ -694,11 +694,11 @@ input[type="checkbox"] {
   }
   .home_hero_para {
     width: 89% !important;
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .home_main {
-    padding-top: 120px !important;
+    padding-top: 144px !important;
 
     width: 87%;
   }
@@ -714,9 +714,9 @@ input[type="checkbox"] {
     width: 97%;
   }
   .btn_home {
-    width: 250px;
-    height: 46px;
-    font-size: 14px;
+    width: 206px;
+    height: 51px;
+    font-size: 11px;
   }
   .homes_details {
     width: 98%;
@@ -729,7 +729,7 @@ input[type="checkbox"] {
   }
 
   .home_hero_p {
-    font-size: 21px;
+    font-size: 18px;
     width: 98%;
   }
 
@@ -900,6 +900,7 @@ input[type="checkbox"] {
   }
   .card_api_data {
     width: 100% !important;
+    height: 634px !important;
   }
 
   .img_res_bets_card {
@@ -949,7 +950,7 @@ input[type="checkbox"] {
   }
 
   .container_h1_con {
-    font-size: 25px !important;
+    font-size: 22px !important;
     line-height: 1.5 !important;
   }
   .container_p_con {
@@ -984,7 +985,21 @@ input[type="checkbox"] {
   .col_sec_about_2 {
     width: 100% !important;
   }
+  .webs_paper_p {
+    width: 100%;
 }
+.fonts_bets_live_h{
+  margin-top: 25px;
+}
+.sec_param_data_p {
+  font-size: 14px !important;
+  padding: 13px;
+}
+.whites_sec_new {
+  font-size: 21px;
+}
+}
+
 
 .casino {
   animation: 1.2s linear infinite color-text-keyframes;
@@ -1495,7 +1510,7 @@ strong {
     padding-right: 0px;
   }
   .D_h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
   .D_group2 {
     margin-top: 0%;
@@ -1571,6 +1586,7 @@ strong {
 }
 .D_betHeadingEpsilon{
 font-size: 25px;
+margin-bottom: 4px;
 }
 .D_betconnect {
   width: 150px;
@@ -1580,7 +1596,13 @@ font-size: 25px;
   
   padding-right: 0px;
 }
-
+.about_sec_h{
+  margin-top: 12px;
+}
+.mains_rows_data {
+ 
+  gap: 0px;
+}
 }
 /* <================================ betting excg api pages=====================================> */
 
@@ -1638,7 +1660,7 @@ font-size: 25px;
 .container_h1_con {
   margin-bottom: 19px;
   text-align: center;
-  font-size: 40px;
+  font-size: 26px;
 }
 .container_p_con {
   text-align: center;
@@ -2019,7 +2041,7 @@ font-size: 25px;
   }
 
   .D_apiHeadingEpsilon {
-    font-size: 32px;
+    font-size: 24px;
   }
   .D_apigridcell3 {
     max-width: 100%;
@@ -2029,12 +2051,13 @@ font-size: 25px;
   .D_apiverticalbox1 {
     padding-left: 12px;
     padding-right: 12px;
+    padding-top: 0px;
   }
   .D_apisection2 {
     padding-top: 0px;
   }
   .D_apicontainer2 {
-    width: 361px;
+    width: 378px;
   }
 
   .D_apigridlast {
@@ -2059,6 +2082,12 @@ font-size: 25px;
 font-size: 19px;
   }
 }
+
+
+@media (max-width: 280px){
+.D_apicontainer2 {
+    width: 272px;
+}}
 .whts_func_1{
   font-size: 20px;
   margin-top: 12px;
