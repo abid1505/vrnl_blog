@@ -433,11 +433,16 @@ html {
 .turnexch_para {
   font-size: 17px;
   text-align: center;
-  width: 37%;
+  width: 55%;
   line-height: 1.5;
   margin-bottom: 12px;
 }
-
+.turnexch_para2{
+font-weight: 600;
+    font-size: 20px;
+    width: 56%;
+    padding-bottom: 1%;
+}
 .turnexch_head {
   font-size: 25px;
   font-weight: 700;
