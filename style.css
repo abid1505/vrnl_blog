@@ -2165,4 +2165,13 @@ padding-bottom: 5%;
   background: #ecf8fb;
 }
 
+.backlinks{
+text-decoration: none;
+    color: #09757a;
+    font-weight: 800;
+}
+
+.backlinks2{
+text-decoration: none;
+}
 /* <=======================================api betfairs images==========================================> */
