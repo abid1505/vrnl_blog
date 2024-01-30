@@ -2178,3 +2178,10 @@ text-decoration: none;
 color: #185abc;
 }
 /* <=======================================api betfairs images==========================================> */
+
+a.nav-link.js-anchor-link.active {
+  color: white;
+    font-weight: bold;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+}
