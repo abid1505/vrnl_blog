@@ -218,7 +218,7 @@ html {
   font-size: 17px;
   line-height: 1.5;
   font-weight: 200;
-  color: #413c3c;
+  color: #464545;
 }
 .whites_ol_li {
   margin-top: 12px;
@@ -433,11 +433,16 @@ html {
 .turnexch_para {
   font-size: 17px;
   text-align: center;
-  width: 37%;
+  width: 55%;
   line-height: 1.5;
   margin-bottom: 12px;
 }
-
+.turnexch_para2{
+font-weight: 600;
+    font-size: 20px;
+    width: 56%;
+    padding-bottom: 1%;
+}
 .turnexch_head {
   font-size: 25px;
   font-weight: 700;
@@ -1305,9 +1310,10 @@ input[type="checkbox"] {
 
 .D_betBodyAlpha2 {
   font-size: 16px;
-  color: rgb(94, 94, 94);
+  /* color: rgb(94, 94, 94); */
   line-height: 1.5;
   font-family: Lato, arial, sans-serif;
+  color: #464545;
 }
 
 /* ================ */
@@ -1977,10 +1983,11 @@ margin-bottom: 4px;
 }
 
 .D_apibodyalpa1 {
-  color: rgb(94, 94, 94);
+  /* color: rgb(94, 94, 94); */
   line-height: 1.5;
   font-weight: 400;
   font-family: Lato, arial, sans-serif;
+  color: #464545;
 }
 
 .D_apisection3 {
@@ -2165,4 +2172,21 @@ padding-bottom: 5%;
   background: #ecf8fb;
 }
 
+.backlinks{
+text-decoration: none;
+    color: #185abc;
+    font-weight: 800;
+}
+
+.backlinks2{
+text-decoration: none;
+color: #185abc;
+}
 /* <=======================================api betfairs images==========================================> */
+
+a.nav-link.js-anchor-link.active {
+  color: white;
+    font-weight: bold;
+    padding-bottom: 7px;
+    border-bottom: 2px solid white;
+}
