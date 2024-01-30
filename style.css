@@ -218,7 +218,7 @@ html {
   font-size: 17px;
   line-height: 1.5;
   font-weight: 200;
-  color: #413c3c;
+  color: #464545;
 }
 .whites_ol_li {
   margin-top: 12px;
@@ -1305,9 +1305,10 @@ input[type="checkbox"] {
 
 .D_betBodyAlpha2 {
   font-size: 16px;
-  color: rgb(94, 94, 94);
+  /* color: rgb(94, 94, 94); */
   line-height: 1.5;
   font-family: Lato, arial, sans-serif;
+  color: #464545;
 }
 
 /* ================ */
@@ -1977,10 +1978,11 @@ margin-bottom: 4px;
 }
 
 .D_apibodyalpa1 {
-  color: rgb(94, 94, 94);
+  /* color: rgb(94, 94, 94); */
   line-height: 1.5;
   font-weight: 400;
   font-family: Lato, arial, sans-serif;
+  color: #464545;
 }
 
 .D_apisection3 {
@@ -2167,11 +2169,12 @@ padding-bottom: 5%;
 
 .backlinks{
 text-decoration: none;
-    color: #09757a;
+    color: #185abc;
     font-weight: 800;
 }
 
 .backlinks2{
 text-decoration: none;
+color: #185abc;
 }
 /* <=======================================api betfairs images==========================================> */
