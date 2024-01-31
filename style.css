@@ -442,11 +442,13 @@ font-weight: 600;
     font-size: 20px;
     width: 56%;
     padding-bottom: 1%;
+    text-align: center;
 }
 .turnexch_head {
   font-size: 25px;
   font-weight: 700;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .col_sec_about {
@@ -1002,6 +1004,13 @@ input[type="checkbox"] {
 }
 .whites_sec_new {
   font-size: 21px;
+}
+.turnexch_para2 {
+  font-weight: 600;
+  font-size: 18px;
+  width: 100%;
+  padding-bottom: 5%;
+  text-align: center;
 }
 }
 
