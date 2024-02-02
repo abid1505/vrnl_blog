@@ -575,7 +575,7 @@ input[type=checkbox] {
 }
 
 .contact_us_sec_con {
-    background-image: linear-gradient(to bottom, rgb(53 53 53 / 49%) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/contactfoot.webp)
+    background-image: linear-gradient(to bottom, rgb(53 53 53 / 49%) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/contactfooter.webp)
 }
 
 .contact_us_sec_bet {
@@ -1414,7 +1414,7 @@ strong {
     width: 100%;
     height: 35em;
     background-size: auto, cover !important;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .66) 100%), url(/assets/images/contacttt.webp)
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .66) 100%), url(/assets/images/contact-bg.webp)
 }
 
 .contact_page_main {
