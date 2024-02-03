@@ -517,6 +517,7 @@ input[type=checkbox] {
 
 .contact_us_sec,
 .contact_us_sec_bet,
+.contact_us_sec_bet_1,
 .contact_us_sec_con {
     width: 100%;
     height: 15em;
@@ -580,6 +581,16 @@ input[type=checkbox] {
 
 .contact_us_sec_bet {
     background-image: linear-gradient(to bottom, rgba(226, 212, 212, .49) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/sports\ api\ provider.webp)
+}
+
+.contact_us_sec_bet_1 {
+    background-image: linear-gradient(to bottom, rgba(226, 212, 212, .49) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/rs=w_1920\,m.webp)
+}
+
+.co_data_1{
+text-align: center;
+color: white;
+font-size: 40px;
 }
 
 .homes_n_col1 {
@@ -739,6 +750,17 @@ input[type=checkbox] {
         width: 98%
     }
 
+    .contact_us_sec_bet_1{
+        height: 15em;
+
+    }
+
+    .co_data_1 {
+    
+        font-size: 27px;
+        padding-top: 38%;
+    }
+
     .mew_home_row {
         gap: 30px
     }
@@ -896,7 +918,7 @@ input[type=checkbox] {
     }
 
     .bets_apis_sec {
-        margin-top: 119px !important
+        margin-top: 40px !important
     }
 
     .bets_api_1_main {
@@ -1314,6 +1336,12 @@ input[type=checkbox] {
     max-width: 100%;
     font-weight: 400;
     font-family: Lato, arial, sans-serif
+}
+
+.sports_sec_apis{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .45) 0, rgba(0, 0, 0, .45) 100%), url(/assets/images/exchange-white-label.webp);
+    background-blend-mode: normal;
+    background-size: auto, cover   
 }
 
 .D_betimghori {
