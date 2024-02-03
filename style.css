@@ -742,7 +742,9 @@ font-size: 40px;
 
     .img_call {
         width: 100%;
-        margin-bottom: 12px
+        margin-bottom: 12px;
+        height: auto !important
+
     }
 
     .home_hero_p {
