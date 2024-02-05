@@ -165,7 +165,7 @@ input[type=checkbox] {
     height: 40em;
     background-position: center;
     background-size: auto, cover !important;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .66) 100%), url(/assets/images/front2.webp);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .66) 100%), url(/assets/images/homebg.webp);
     background-repeat: no-repeat
 }
 
