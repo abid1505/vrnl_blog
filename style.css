@@ -59,7 +59,16 @@
     padding: 0;
     box-sizing: border-box
 }
-
+.logos_admin{
+    color: white;
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding: 12px;
+    text-transform: uppercase;
+}
+.navbar a{
+text-decoration: none;
+}
 html {
     font-family: Clarkson, Helvetica, sans-serif
 }
@@ -747,6 +756,15 @@ font-size: 40px;
 
     }
 
+    .navbar a {
+        text-decoration: none;
+        width: 66%;
+    }
+    .logos_admin{
+        font-size: 20px;
+
+    }
+
     .home_hero_p {
         font-size: 18px;
         width: 98%
@@ -760,7 +778,7 @@ font-size: 40px;
     .co_data_1 {
     
         font-size: 27px;
-        padding-top: 38%;
+        padding-top: 28%;
     }
 
     .mew_home_row {
