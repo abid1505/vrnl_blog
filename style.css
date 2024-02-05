@@ -531,8 +531,8 @@ input[type=checkbox] {
 .contact_us_sec_bet_1,
 .contact_us_sec_con {
     width: 100%;
-    height: 15em;
-    background-position: center;
+    height: 19em;
+    /* background-position: center; */
     background-size: auto, cover
 }
 
@@ -595,7 +595,7 @@ input[type=checkbox] {
 }
 
 .contact_us_sec_bet_1 {
-    background-image: linear-gradient(to bottom, rgba(226, 212, 212, .49) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/Betting_Exchange.webp)
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.49) 0, rgba(0, 0, 0, .49) 100%), url(/assets/images/betting-exch.jpg)
 }
 
 .co_data_1{
@@ -622,7 +622,7 @@ font-size: 40px;
 }
 
 .con_sec_1 {
-    padding-top: 5%
+    padding-top: 10%
 }
 
 .btns_con,
