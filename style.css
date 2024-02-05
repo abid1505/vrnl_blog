@@ -63,8 +63,10 @@
     color: white;
     font-size: 23px;
     letter-spacing: 1px;
-    padding: 1px;
+    /* padding: 1px; */
+    padding-top: 8px ;
     text-transform: uppercase;
+    font-style: italic;
 }
 .navbar a{
 text-decoration: none;
