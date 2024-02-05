@@ -722,7 +722,9 @@ font-size: 40px;
     }
 
     .navbar {
-        z-index: 999999
+        z-index: 999999;
+        height: 99px;
+
     }
 
     .home_hero_para {
@@ -760,10 +762,12 @@ font-size: 40px;
 
     .navbar a {
         text-decoration: none;
-        width: 66%;
+        width: 44%;
     }
     .logos_admin{
         font-size: 20px;
+        padding-top: 0px !important ;
+
 
     }
 
