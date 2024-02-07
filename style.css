@@ -2046,6 +2046,11 @@ a.nav-link.js-anchor-link.active {
     }
   }
 
+  .new_h1{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
 
   .img-pwu{
     padding: 20px;
