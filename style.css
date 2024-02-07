@@ -2245,3 +2245,56 @@ a.nav-link.js-anchor-link.active {
           }
         
             } 
+
+            .points-list{
+                display: flex;
+              }
+            
+              .points-section01 p {
+                font-weight: 600;
+                margin-bottom: 10px;
+              }
+              .points-section01{
+                margin: 2rem;
+                
+              }
+            
+              .bs{ 
+                background: rgba(0, 0, 0, .075) !important;
+                padding: 2rem;
+                float: left;
+                font-size: 16px;
+              }
+              .bs ul{
+                list-style-type: square;
+                /* line-height: 2rem; */
+              }
+              .bs ul li{
+                margin-top: 1rem;
+              }
+              .border {
+                box-shadow: -5px 0 0 0 rgba(0, 0, 0, .25) !important;
+              }
+              .border-left {
+                /* box-shadow: -5px 0 0 0 rgba(0, 0, 0, .25);
+                list-style: none; */
+                padding-left: 1.5rem;
+              }
+            .turnkey_row{
+                margin-right: 30%;
+                margin-left: 30%;
+            }
+              @media (max-width: 680px) {
+                .points-list{
+                    flex-direction: column;
+                }
+                .bs{
+                    padding: 1rem;
+                 }
+                 .points-section01{
+                    margin:0rem;
+                    /* margin-top: 2rem; */
+                    margin-bottom: 2rem;
+                    
+                  }
+             }
