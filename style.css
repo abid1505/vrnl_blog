@@ -2284,6 +2284,18 @@ a.nav-link.js-anchor-link.active {
                 margin-right: 30%;
                 margin-left: 30%;
             }
+            .turnkey_para{
+                font-size: 17px;
+                width: 80%;
+                line-height: 1.5;
+                margin-bottom: 12px;
+            }
+            .turnkey_bullet{
+                list-style:square;
+            }
+            .turnkey_bullet li{
+                margin-top: 1rem;
+            }
               @media (max-width: 680px) {
                 .points-list{
                     flex-direction: column;
