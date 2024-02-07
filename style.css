@@ -2258,7 +2258,13 @@ a.nav-link.js-anchor-link.active {
                 margin: 2rem;
                 
               }
-            
+            .turnkey_section01{
+                margin: 2rem;
+            }
+            .turnkey_section01 p {
+                font-weight: 600;
+                margin-bottom: 10px;
+              }
               .bs{ 
                 background: rgba(0, 0, 0, .075) !important;
                 padding: 2rem;
@@ -2308,5 +2314,8 @@ a.nav-link.js-anchor-link.active {
                     /* margin-top: 2rem; */
                     margin-bottom: 2rem;
                     
+                  }
+                  .turnkey_section01{
+                    margin-left: 2rem;
                   }
              }
