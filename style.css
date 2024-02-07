@@ -2353,8 +2353,8 @@ a.nav-link.js-anchor-link.active {
                 background-repeat: no-repeat
             }
             .u-section-1 .u-list-1 {
-                width: 1010px !important; 
-                margin: -159px 0px 0px 37px !important
+                width: 70% !important; 
+                margin: -7rem 0rem 0rem 6rem !important
             }
             .u-list:not(.u-repeater), .u-blog:not(.u-repeater), .u-products:not(.u-repeater) {
                 display: flex;
