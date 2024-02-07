@@ -1977,7 +1977,7 @@ strong {
 .backlinks,
 .backlinks2 {
     text-decoration: none;
-    color: #185abc
+    color: #038bff
 }
 .max-w-100 {
     max-width: 100%
@@ -2048,6 +2048,11 @@ a.nav-link.js-anchor-link.active {
     }
   }
 
+  .new_h1{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 9px;
+  }
 
   .img-pwu{
     padding: 20px;
@@ -2241,6 +2246,81 @@ a.nav-link.js-anchor-link.active {
             text-align: start;
           }
         
+            } 
+
+            .points-list{
+                display: flex;
+              }
+            
+              .points-section01 p {
+                font-weight: 600;
+                margin-bottom: 10px;
+              }
+              .points-section01{
+                margin: 2rem;
+                
+              }
+            .turnkey_section01{
+                margin: 2rem;
+            }
+            .turnkey_section01 p {
+                font-weight: 600;
+                margin-bottom: 10px;
+              }
+              .bs{ 
+                background: rgba(0, 0, 0, .075) !important;
+                padding: 2rem;
+                float: left;
+                font-size: 16px;
+              }
+              .bs ul{
+                list-style-type: square;
+                /* line-height: 2rem; */
+              }
+              .bs ul li{
+                margin-top: 1rem;
+              }
+              .border {
+                box-shadow: -5px 0 0 0 rgba(0, 0, 0, .25) !important;
+              }
+              .border-left {
+                /* box-shadow: -5px 0 0 0 rgba(0, 0, 0, .25);
+                list-style: none; */
+                padding-left: 1.5rem;
+              }
+            .turnkey_row{
+                margin-right: 30%;
+                margin-left: 30%;
+            }
+            .turnkey_para{
+                font-size: 17px;
+                width: 80%;
+                line-height: 1.5;
+                margin-bottom: 12px;
+            }
+            .turnkey_bullet{
+                list-style:square;
+            }
+            .turnkey_bullet li{
+                margin-top: 1rem;
+            }
+              @media (max-width: 680px) {
+                .points-list{
+                    flex-direction: column;
+                }
+                .bs{
+                    padding: 1rem;
+                 }
+                 .points-section01{
+                    margin:0rem;
+                    /* margin-top: 2rem; */
+                    margin-bottom: 2rem;
+                    
+                  }
+                  .turnkey_section01{
+                    margin-left: 2rem;
+                  }
+             }
             } 
 
 
