@@ -276,7 +276,7 @@ input[type=checkbox] {
 .Whitelabel_sec,
 .availables_api_c_sec,
 .whites_main_sec_exch {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 50px
 }
 .mains_rows_data {
@@ -446,7 +446,7 @@ input[type=checkbox] {
 }
 
 .frq_q_sec {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     padding-bottom: 40px;
     /* background: #f6dfdb */
 }
@@ -455,6 +455,7 @@ input[type=checkbox] {
 .main_sec_container,
 .mains_info_con {
     margin: 0 auto;
+    
     width: 65%
 }
 
@@ -2671,6 +2672,9 @@ a.nav-link.js-anchor-link.active {
               
                 .u-section-1 .u-container-layout-6 {
                   padding-left: 0;
+                }
+                .whits_bets_head {
+                  font-size: 22px;
                 }
               }
             
