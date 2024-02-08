@@ -1,87 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta
-      name="description"
-      content="WhiteLabel Betting Exchange, Live Streaming TV API, Live Casinos API, Betfair API Provider."
-    />
-    <meta name="title" content="Betting Exchange Whitelabel" />
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-16x16.ico" />
-    <title>Sport Exchange Whitelabel</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="WhiteLabel Betting Exchange, Live Streaming TV API, Live Casinos API, Betfair API Provider." />
+  <meta name="title" content="Betting Exchange Whitelabel" />
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon-16x16.ico" />
+  <title>Sport Exchange Whitelabel</title>
 
-    <meta property="og:title" content="Betting Exchange Whitelabel">
-    <meta name="twitter:title" content="Betting Exchange Whitelabel">
-    <meta property="og:site_name" content="Betting Exchange Whitelabel">
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <header class="header" id="navigation-menu">
-      <nav class="navbar">
-       
-        <a href="/index.html">
-          <h1 class="logos_admin">Sport Exchange Whitelabel</h1>
-        </a>
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link js-anchor-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="/betting-exchanges.html" class="nav-link js-anchor-link"
-              >Betting Exchange</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/sports-betting-apis.html" class="nav-link js-anchor-link"
-              >Sports Betting APIs
+  <meta property="og:title" content="Betting Exchange Whitelabel">
+  <meta name="twitter:title" content="Betting Exchange Whitelabel">
+  <meta property="og:site_name" content="Betting Exchange Whitelabel">
+  <link rel="stylesheet" href="/style.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #f1f8ff;
+  }
+
+  #contact {
+    background-color: #e1f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-box {
+    width: clamp(100px, 90%, 1000px);
+    margin: 80px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  }
+
+  .contact-links,
+  .contact-form-wrapper {
+    width: 50%;
+    padding: 8% 5% 10% 5%;
+  }
+
+
+  .contact-links {
+    background-color: #1f2e43;
+    background:
+      radial-gradient(circle at 55% 92%, #426691 0 12%, transparent 12.2%),
+      radial-gradient(circle at 94% 72%, #426691 0 10%, transparent 10.2%),
+      radial-gradient(circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%),
+      radial-gradient(circle at 0% 0%, #263a53 0 40%, transparent 40.2%),
+      #1f2e43;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .contact-form-wrapper {
+    background-color: #ffffff8f;
+    border-radius: 0 10px 10px 0;
+  }
+
+  @media only screen and (max-width: 800px) {
+
+    .contact-links,
+    .contact-form-wrapper {
+      width: 100%;
+    }
+
+    .contact-links {
+      border-radius: 10px 10px 0 0;
+    }
+
+    .contact-form-wrapper {
+      border-radius: 0 0 10px 10px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .contact-box {
+      width: 95%;
+      margin: 8% 5%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    }
+  }
+
+  h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: clamp(30px, 6vw, 60px);
+    letter-spacing: 2px;
+    text-align: center;
+    transform: scale(.95, 1);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .link {
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  img {
+    width: 45px;
+    height: 45px;
+    transition: 0.2s;
+    user-select: none;
+  }
+
+  img:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  img:active {
+    transform: scale(1.1, 1.1);
+    filter:
+      hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
+  }
+
+  .form-item {
+    position: relative;
+  }
+
+  label,
+  input,
+  textarea {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  label {
+    position: absolute;
+    top: 10px;
+    left: 2%;
+    color: #999;
+    font-size: clamp(14px, 1.5vw, 18px);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: clamp(15px, 1.5vw, 18px);
+  }
+
+  input:focus+label,
+  input:valid+label,
+  textarea:focus+label,
+  textarea:valid+label {
+    font-size: clamp(13px, 1.3vw, 16px);
+    color: #777;
+    top: -20px;
+    transition: all .225s ease;
+  }
+  .links.inconsize{
+font-size: 30px !important;
+  }
+
+  .submit-btn {
+    background-color: #fd917e;
+    filter: drop-shadow(2px 2px 3px #0003);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(16px, 1.6vw, 18px);
+    display: block;
+    padding: 12px 20px;
+    margin: 2px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+  }
+
+  .submit-btn:hover {
+    transform: scale(1.1, 1.1);
+  }
+
+  .submit-btn:active {
+    transform: scale(1.1, 1.1);
+    filter: sepia(0.5);
+  }
+
+  @media only screen and (max-width: 800px) {
+    h2 {
+      font-size: clamp(40px, 10vw, 60px);
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    h2 {
+      font-size: clamp(30px, 12vw, 60px);
+    }
+
+    .links {
+      padding-top: 30px;
+    }
+
+    img {
+      width: 38px;
+      height: 38px;
+    }
+  }
+</style>
+
+<body>
+  <header class="header" id="navigation-menu">
+    <nav class="navbar">
+
+      <a href="/index.html">
+        <h1 class="logos_admin">Sport Exchange Whitelabel</h1>
+      </a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="/index.html" class="nav-link js-anchor-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/betting-exchanges.html" class="nav-link js-anchor-link">Betting Exchange</a>
+        </li>
+        <li class="nav-item">
+          <a href="/sports-betting-apis.html" class="nav-link js-anchor-link">Sports Betting APIs
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/betfair-api-provider.html" class="nav-link js-anchor-link">Casino API Provider</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact-us.html" class="nav-link js-anchor-link casino active">Contact</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+  <section class="contact_us_sec_bet_2">
+    <div class="elementor-background-overlay"></div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-box">
+      <div class="contact-links">
+        <h2>CONTACT</h2>
+        <div class="links inconsize" >
+          <div class="link">
+            <a><img src="/assets/images/sm/google-maps-old.webp" alt="whatsapp"> </a>
+          </div>
+          <div class="link">
+            <a><img src="/assets/images/sm/whatsapp.webp" alt="whatsapp">       
+
+
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="/betfair-api-provider.html" class="nav-link js-anchor-link"
-              >Casino API Provider</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              href="/contact-us.html"
-              class="nav-link js-anchor-link casino active"
-              >Contact</a
-            >
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
-
-    <section class="c_pages_sec" id="con_s_1_data">
-      <div class="contact_page_main">
-        <div class="contact_us_row">
-          <h1 class="con_p_us_1">SPORTS API PROVIDER</h1>
-          <div class="div_btns">
-            <a
-              href="https://wa.me/+917045558242"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button class="con_btns_12 button-pulse">Contact Us</button></a
-            >
+          </div>
+          <div class="link">
+            <a><img src="/assets/images/sm/skype.webp" alt="skype"> </a>
+          </div>
+          <div class="link">
+            <a><img src="/assets/images/sm/facebook.webp" alt="facebook"> </a>
+          </div>
+          <div class="link">
+            <a>  <img src="/assets/images/sm/instagram.webp" alt="instagram"> </a>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="container_sec_1">
+      <div class="contact-form-wrapper">
+        <form>
+          <div class="form-item">
+            <input type="text" name="sender" required>
+            <label>Name:</label>
+          </div>
+          <div class="form-item">
+            <input type="text" name="email" required>
+            <label>Email:</label>
+          </div>
+          <div class="form-item">
+            <textarea class="" name="message" required></textarea>
+            <label>Message:</label>
+          </div>
+          <button class="submit-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section  id="sec-65f5">
+       
+      <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+ <section class="container_sec_1">
       <div class="main_sec_container">
         <div class="container_row">
           <h1 class="container_h1_con">
-            INDIA AND BANGLADESH NO. 1 SPORTS EXCHANGE WHITELABEL API AND CASINO
-            API PROVIDER
+            INDIA and Bangladesh's top sports exchange, white-label API, and casino API provider.
           </h1>
           <p class="container_p_con">
             If you are interested following services, directly message us on
@@ -92,18 +320,22 @@
           <div class="container_img_row_points">
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Diamond API Services</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Sports API Provider</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Cricket API Provider</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data">
                 <p>Online Live Casinos API Provider</p></a
               >
@@ -112,43 +344,50 @@
           <div class="container_img_row_points">
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Fancy API Provider</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Seesion API Provider</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>BETTING Exchange Services</p></a>
             </div>
             <div class="pointer_list">
               <i class="fa-solid fa-circle-check"></i>
+              <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
               <a href="#con_s_1_data"> <p>Bookmaker Odds API</p></a>
             </div>
           </div>
-        
         <div class="container_img_row_points">
           <div class="pointer_list">
             <i class="fa-solid fa-circle-check"></i>
+            <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
             <a href="#con_s_1_data">
               <p>Matchodds API Provider</p>
             </a>
           </div>
           <div class="pointer_list">
             <i class="fa-solid fa-circle-check"></i>
+            <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
             <a href="#con_s_1_data">
               <p>Live Games Provider</p>
             </a>
           </div>
           <div class="pointer_list">
             <i class="fa-solid fa-circle-check"></i>
+            <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
             <a href="#con_s_1_data">
               <p>Live Score API Provider</p>
             </a>
           </div>
           <div class="pointer_list">
             <i class="fa-solid fa-circle-check"></i>
+            <i class="fa fa-arrow-circle-right arrow" aria-hidden="true"></i>
             <a href="#con_s_1_data">
               <p>Premium Fancy API Provider</p>
             </a>
@@ -174,84 +413,52 @@
         </a>
       </div>
     </section>
-
-    <section class="whatspara_sec_para">
-      <h2 class="sec_param_data_h">Are you looking for Sports Betting APIs?</h2>
-      <p class="sec_param_data_p">
-        Online Live Casinos API, WhiteLabel Betting Exchanges, Match Odds API,
-        Bookmaker APIs, Greyhound Racing Odds API, Horse Racing Odds API, Fancy
-        Odds API, Live Streaming TV API, Premium Fancy Odds API, Diamond API
-        Provider, Bookie Management Software, Bookmaker Odds API
-      </p>
-    </section>
-
-    <section class="contact_us_sec_con">
-      <div class="con_sec_1">
-        <div class="sec_btns_details">
-          <h1 class="con_sec_header">
-            Sports Exchange Whitelabel - A TRUSTED API PROVIDER FOR ODDS
-          </h1>
-          <div class="btns_buttons_90">
-            <a
-              href="https://wa.me/7045558242"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button class="btns_con_1 button-pulse">Contact Us</button>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
+  
+ 
 
-    <section class="footer_sec_2">
+ 
+
+  <section class="footer_sec_2">
+   
+    <div class="footer_section_2">
       <p class="foot_para_2">Sports Exchange Whitelabel</p>
+      <div class="footer_text_row">
+        <div class="f_col1">
+          <p class="F1_H">
+            Copyright © 2023 Sports Exchange Whitelabel - All Rights Reserved.
+          </p>
+        </div>
 
-      <div class="footer_section_2">
-        <div class="footer_text_row">
-          <div class="f_col1">
-            <p class="F1_H">
-              Copyright © 2023 Sports Exchange Whitelabel - All Rights Reserved.
-            </p>
-          </div>
-
-          <div class="f_col2">
-          </div>
+        <div class="f_col2">
         </div>
       </div>
-    </section>
-    <a
-      href="https://wa.me/+917045558242"
-      class="btn-whatsapp-pulses"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="contact us on whatsapp"
-    >
-      <img
-        src="/assets/images/icons8-whatsapp-50 (1).webp"
-        alt="whatsapp"
-        width="40"
-        height="40"
-      />
-    </a>
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const navMenu = document.querySelector(".nav-menu");
+    </div>
+  </section>
+  <a href="https://wa.me/+917045558242" class="btn-whatsapp-pulses" target="_blank" rel="noopener noreferrer"
+    aria-label="contact us on whatsapp">
+    <img src="/assets/images/icons8-whatsapp-50 (1).webp" alt="whatsapp" width="40" height="40" />
+  </a>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
 
-      hamburger.addEventListener("click", mobileMenu);
+    hamburger.addEventListener("click", mobileMenu);
 
-      function mobileMenu() {
-        hamburger.classList.toggle("active");
-        navMenu.classList.toggle("active");
-      }
-      const navLink = document.querySelectorAll(".nav-link");
+    function mobileMenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+    const navLink = document.querySelectorAll(".nav-link");
 
-      navLink.forEach((n) => n.addEventListener("click", closeMenu));
+    navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
-      function closeMenu() {
-        hamburger.classList.remove("active");
-        navMenu.classList.remove("active");
-      }
-    </script>
-  </body>
+    function closeMenu() {
+      hamburger.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  </script>
+</body>
+
 </html>
