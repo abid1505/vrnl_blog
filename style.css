@@ -375,6 +375,9 @@ input[type=checkbox] {
     width: 50%
 }
 
+.bets_col{
+  width: 100%;
+}
 .bets_api_img {
     height: 414px;
     margin-bottom: 31px;
