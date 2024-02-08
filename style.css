@@ -1390,7 +1390,8 @@ input[type=checkbox] {
 .contact_us_row,
 .sec_btns_details {
     justify-content: center;
-    display: flex
+    display: flex;
+    margin-bottom: 15px;
 }
 
 .D_betconnect:hover {
