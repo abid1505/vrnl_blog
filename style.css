@@ -455,7 +455,7 @@ input[type=checkbox] {
 .main_sec_container,
 .mains_info_con {
     margin: 0 auto;
-    /* width: 65% */
+    width: 65%
 }
 
 .faq-drawer {
@@ -3011,3 +3011,32 @@ width: 66px;
     margin: -148px 0px 0px 70px !important
 }
 }
+.parlay_para{
+  justify-content: center;
+}
+.parlay_para_width{
+  width: 85%
+}
+@media (max-width: 820px) {
+  .parlay_para_width{
+    width: 100%
+  }
+}
+.contact_us_sec,
+.contact_us_sec_bet,
+.contact_us_sec_bet_2,
+.contact_us_sec_con {
+    width: 100%;
+    height: 19em;
+    background-position: center;
+    background-size: auto, cover
+}
+.contact_us_sec_bet_2 {
+  height: 15em;
+
+}
+.contact_us_sec_bet_2 {
+  background-color: #023047;
+  background-position: top;
+}
+
