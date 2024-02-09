@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,35 +8,29 @@
   <meta name="title" content="Betting Exchange Whitelabel" />
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon-16x16.ico" />
   <title>Sport Exchange Whitelabel</title>
-
   <meta property="og:title" content="Betting Exchange Whitelabel">
   <meta name="twitter:title" content="Betting Exchange Whitelabel">
   <meta property="og:site_name" content="Betting Exchange Whitelabel">
   <link rel="stylesheet" href="/style.css" />
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
   @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
   * {
     margin: 0;
     box-sizing: border-box;
   }
-
   body {
     background-color: #f1f8ff;
   }
-
   #contact {
     background-color: #e1f1ff;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .contact-box {
     width: clamp(100px, 90%, 1000px);
     margin: 80px 50px;
@@ -45,14 +38,11 @@
     flex-wrap: wrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
   }
-
   .contact-links,
   .contact-form-wrapper {
     width: 50%;
     padding: 8% 5% 10% 5%;
   }
-
-
   .contact-links {
     background-color: #1f2e43;
     background:
@@ -63,28 +53,22 @@
       #1f2e43;
     border-radius: 10px 0 0 10px;
   }
-
   .contact-form-wrapper {
     background-color: #ffffff8f;
     border-radius: 0 10px 10px 0;
   }
-
   @media only screen and (max-width: 800px) {
-
     .contact-links,
     .contact-form-wrapper {
       width: 100%;
     }
-
     .contact-links {
       border-radius: 10px 10px 0 0;
     }
-
     .contact-form-wrapper {
       border-radius: 0 0 10px 10px;
     }
   }
-
   @media only screen and (max-width: 400px) {
     .contact-box {
       width: 95%;
@@ -92,7 +76,6 @@
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
     }
   }
-
   h2 {
     font-family: 'Arimo', sans-serif;
     color: #fff;
@@ -101,46 +84,38 @@
     text-align: center;
     transform: scale(.95, 1);
   }
-
   .links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 50px;
   }
-
   .link {
     margin: 10px;
     cursor: pointer;
   }
-
   img {
     width: 45px;
     height: 45px;
     transition: 0.2s;
     user-select: none;
   }
-
   img:hover {
     transform: scale(1.1, 1.1);
   }
-
   img:active {
     transform: scale(1.1, 1.1);
     filter:
       hue-rotate(220deg) drop-shadow(2px 4px 4px #222) sepia(0.3);
   }
-
   .form-item {
     position: relative;
   }
-
   label,
   input,
   textarea {
     font-family: 'Poppins', sans-serif;
   }
-
   label {
     position: absolute;
     top: 10px;
@@ -150,7 +125,6 @@
     pointer-events: none;
     user-select: none;
   }
-
   input,
   textarea {
     width: 100%;
@@ -161,7 +135,6 @@
     padding: 12px;
     font-size: clamp(15px, 1.5vw, 18px);
   }
-
   input:focus+label,
   input:valid+label,
   textarea:focus+label,
@@ -175,7 +148,6 @@
   .links.inconsize {
     font-size: 30px !important;
   }
-
   .submit-btn {
     background-color: #fd917e;
     filter: drop-shadow(2px 2px 3px #0003);
@@ -191,38 +163,31 @@
     user-select: none;
     transition: 0.2s;
   }
-
   .submit-btn:hover {
     transform: scale(1.1, 1.1);
   }
-
   .submit-btn:active {
     transform: scale(1.1, 1.1);
     filter: sepia(0.5);
   }
-
   @media only screen and (max-width: 800px) {
     h2 {
       font-size: clamp(40px, 10vw, 60px);
     }
   }
-
   @media only screen and (max-width: 400px) {
     h2 {
       font-size: clamp(30px, 12vw, 60px);
     }
-
     .links {
       padding-top: 30px;
     }
-
     img {
       width: 38px;
       height: 38px;
     }
   }
 </style>
-
 <body>
   <header class="header" id="navigation-menu">
     <nav class="navbar">
@@ -512,7 +477,6 @@
             Copyright © 2023 Sports Exchange Whitelabel - All Rights Reserved.
           </p>
         </div>
-
         <div class="f_col2">
         </div>
       </div>
@@ -525,22 +489,17 @@
   <script>
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".nav-menu");
-
     hamburger.addEventListener("click", mobileMenu);
-
     function mobileMenu() {
       hamburger.classList.toggle("active");
       navMenu.classList.toggle("active");
     }
     const navLink = document.querySelectorAll(".nav-link");
-
     navLink.forEach((n) => n.addEventListener("click", closeMenu));
-
     function closeMenu() {
       hamburger.classList.remove("active");
       navMenu.classList.remove("active");
     }
   </script>
 </body>
-
 </html>

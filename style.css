@@ -322,8 +322,8 @@ input[type=checkbox] {
 .Whitelabel_sec,
 .availables_api_c_sec,
 .whites_main_sec_exch {
-  padding-top: 50px;
-  padding-bottom: 50px
+    /* padding-top: 50px; */
+    padding-bottom: 50px
 }
 
 .mains_rows_data {
@@ -498,16 +498,17 @@ input[type=checkbox] {
 }
 
 .frq_q_sec {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  /* background: #f6dfdb */
+    /* padding-top: 40px; */
+    padding-bottom: 40px;
+    /* background: #f6dfdb */
 }
 
 .container,
 .main_sec_container,
 .mains_info_con {
-  margin: 0 auto;
-  width: 65%
+    margin: 0 auto;
+
+    width: 89%
 }
 
 .faq-drawer {
@@ -1471,8 +1472,8 @@ input[type=checkbox] {
 }
 
 strong {
-  font-size: 18px;
-  color: #000
+    font-size: 18px;
+    color: #464545
 }
 
 .c_pages_sec {
@@ -1536,15 +1537,15 @@ strong {
 }
 
 .container_img_row_points {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  width: 25%
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 26%
 }
 
 .con_list_of_container {
-  margin-top: 5%;
-  gap: 5%
+    margin-top: 5%;
+    gap: 2%
 }
 
 .pointer_list p {
