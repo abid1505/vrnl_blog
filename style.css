@@ -742,7 +742,7 @@ input[type=checkbox] {
     .co_data_1 {
 
         font-size: 25px;
-        padding-top: 28%;
+        padding-top: 20%;
     }
 
     .mew_home_row {
@@ -1871,7 +1871,7 @@ strong {
     }
 
     .D_apicontainer2 {
-        width: 378px
+        width: 95%
     }
 
     .D_apigridcelllast {
