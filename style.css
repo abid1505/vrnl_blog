@@ -1450,7 +1450,7 @@ input[type=checkbox] {
 .sec_btns_details {
   justify-content: center;
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 .D_betconnect:hover {
@@ -1517,7 +1517,7 @@ strong {
 }
 
 .container_sec_1 {
-  margin-top: 5%
+  margin-top: 3%
 }
 
 .container_h1_con {
