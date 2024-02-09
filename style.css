@@ -179,7 +179,7 @@ input[type=checkbox] {
 
 .home {
   width: 100%;
-  height: 40em;
+  height: 45em;
   background-position: center;
   background-size: auto, cover !important;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .66) 0, rgba(0, 0, 0, .66) 100%), url(/assets/images/homebg.webp);
@@ -633,7 +633,7 @@ input[type=checkbox] {
 }
 
 .con_sec_1 {
-  padding-top: 9%
+  padding-top: 15%
 }
 
 .btns_con,
@@ -792,11 +792,7 @@ input[type=checkbox] {
 
   }
 
-  .co_data_1 {
-
-    font-size: 25px;
-    padding-top: 28%;
-  }
+ 
 
   .mew_home_row {
     gap: 30px
@@ -1037,6 +1033,15 @@ input[type=checkbox] {
     color: #9b0a16
   }
 }
+
+@media (max-width:280px){
+
+.co_data_1 {
+
+  font-size: 25px;
+  padding-top: 10%;
+}}
+
 
 .button-pulse {
   animation: 2s cubic-bezier(.25, 0, 0, 1) 3s infinite pulse;
@@ -1915,8 +1920,8 @@ strong {
   }
 
   .D_apiverticalbox1 {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 0
   }
 
@@ -1925,7 +1930,7 @@ strong {
   }
 
     .D_apicontainer2 {
-        width: 95%
+        width: 100%
     }
 
   .D_apigridcelllast {
@@ -2356,6 +2361,7 @@ a.nav-link.js-anchor-link.active {
 .turnkey_section01 p {
   font-weight: 600;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .bs {
@@ -2421,8 +2427,21 @@ a.nav-link.js-anchor-link.active {
   }
 
   .turnkey_section01 {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
+  .turnexch_head {
+    font-size: 19px;
+  }
+  .turnkey_para {
+    font-size: 17px;
+    width: 92%;
+  }
+  .turnkey_section01 {
+    margin: 1rem;
+}
+.turnkey_bullet {
+  margin-left: 25px;
+}
 }
 
 
@@ -3504,4 +3523,6 @@ body:not(.rtl) .elementor-812 .elementor-element.elementor-element-d064c37 {
     width: 100%;
     max-width: 100%;
 }
+
+
 }
