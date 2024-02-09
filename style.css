@@ -774,12 +774,11 @@ input[type=checkbox] {
 
   .navbar a {
     text-decoration: none;
-    width: 44%;
+    width: 57%;
   }
 
   .logos_admin {
     font-size: 20px;
-    padding-top: 0px !important;
 
 
   }
