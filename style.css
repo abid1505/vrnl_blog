@@ -1926,9 +1926,9 @@ strong {
     padding-top: 0
   }
 
-  .D_apicontainer2 {
-    width: 378px
-  }
+    .D_apicontainer2 {
+        width: 95%
+    }
 
   .D_apigridcelllast {
     max-width: 99.6667%;
