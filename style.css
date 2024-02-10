@@ -633,9 +633,13 @@ input[type=checkbox] {
 }
 
 .con_sec_1 {
-  padding-top: 9%
+  padding-top: 30%
 }
-
+@media (min-width:680px) {
+  .con_sec_1 {
+    padding-top: 19%
+  }
+}
 .btns_con,
 .btns_con_1 {
   padding: 12px;
