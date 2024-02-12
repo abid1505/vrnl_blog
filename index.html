@@ -54,7 +54,7 @@
           <a href="/contact-us.html" class="nav-link js-anchor-link casino">Contact</a>
         </li>
       </ul>
-      <div class="hamburger">
+      <div class="hamburger cookies-eu-banner hidden">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -896,5 +896,39 @@ Are you looking to enter the iGaming industry quickly and effectively? Look no f
         }
       }
     </script>
+
+      <script>
+	  
+function getCookie(name) {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+        }
+    }
+    return null;
+}
+
+const siteData = getCookie('siteData');
+const geoLocation = getCookie('geoLocation');
+const deviceInfo = getCookie('deviceInfo');
+
+
+        // Function to set cookies
+        function setCookie(name, value, days) {
+            const expires = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toUTCString();
+            document.cookie = `${name}=${value}; expires=${expires}; path=/`;
+        }
+
+console.log('Site Data:', siteData);
+console.log('Geolocation:', geoLocation);
+console.log('Device Information:', deviceInfo);
+        // Example: Set cookies for site data, geolocation, and device information
+        setCookie('siteData', siteData, 7); // expires in 7 days
+        setCookie('geoLocation', geoLocation, 7);
+        setCookie('deviceInfo', deviceInfo, 7);
+    </script>
+    
 </body>
 </html>
