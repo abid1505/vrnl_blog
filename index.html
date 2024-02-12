@@ -19,7 +19,7 @@
   <meta name="title" content="Betting Exchange Whitelabel" />
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon-16x16.ico" />
   <meta name="google-site-verification" content="kglRlca78sVpKXGnwc2Ip1mGzNtP1-7wwfIzCEc0QMM" />
-  <title>whitelabel sports betting platform & API's solution</title>
+  <title>whitelabel sports betting</title>
   <meta name="keywords" content="sport betting exchange , online casino, betting exchange ,IFrame ,betfair exchange whitelabel,white-label exchange
   Matchodds api,exchange whitelabel,diamond exchange whitelabel,betting exchange whitelabel,whitelabel exchange softwar,
 , cricket Betting software provider, horse racing Betting software provider, Sports betting software provider,
@@ -54,7 +54,7 @@
           <a href="/contact-us.html" class="nav-link js-anchor-link casino">Contact</a>
         </li>
       </ul>
-      <div class="hamburger">
+      <div class="hamburger cookies-eu-banner hidden">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -896,5 +896,39 @@ Are you looking to enter the iGaming industry quickly and effectively? Look no f
         }
       }
     </script>
+
+      <script>
+	  
+function getCookie(name) {
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+        }
+    }
+    return null;
+}
+
+const siteData = getCookie('siteData');
+const geoLocation = getCookie('geoLocation');
+const deviceInfo = getCookie('deviceInfo');
+
+
+        // Function to set cookies
+        function setCookie(name, value, days) {
+            const expires = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toUTCString();
+            document.cookie = `${name}=${value}; expires=${expires}; path=/`;
+        }
+
+console.log('Site Data:', siteData);
+console.log('Geolocation:', geoLocation);
+console.log('Device Information:', deviceInfo);
+        // Example: Set cookies for site data, geolocation, and device information
+        setCookie('siteData', siteData, 7); // expires in 7 days
+        setCookie('geoLocation', geoLocation, 7);
+        setCookie('deviceInfo', deviceInfo, 7);
+    </script>
+    
 </body>
 </html>
