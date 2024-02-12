@@ -633,13 +633,13 @@ input[type=checkbox] {
 }
 
 .con_sec_1 {
-  padding-top: 30%
+  padding-top: 7%
 }
-@media (min-width:680px) {
+/* @media (min-width:680px) {
   .con_sec_1 {
     padding-top: 19%
   }
-}
+} */
 .btns_con,
 .btns_con_1 {
   padding: 12px;
@@ -717,6 +717,14 @@ input[type=checkbox] {
   .sky_exch_row {
     flex-direction: column
   }
+
+  .co_data_1 {
+    font-size: 29px !important;
+}
+
+.con_sec_1 {
+  padding-top: 27% !important;
+}
 
   .con_p_us_1,
   .container_h1_con,
