@@ -621,11 +621,11 @@ input[type=checkbox] {
 .con_sec_1 {
   padding-top: 7%
 }
-/* @media (min-width:680px) {
+@media (max-width:380px) {
   .con_sec_1 {
     padding-top: 19%
   }
-} */
+}
 .btns_con,
 .btns_con_1 {
   padding: 12px;
