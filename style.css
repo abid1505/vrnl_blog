@@ -633,13 +633,13 @@ input[type=checkbox] {
 }
 
 .con_sec_1 {
-  padding-top: 30%
+  padding-top: 7%
 }
-@media (min-width:680px) {
+/* @media (min-width:680px) {
   .con_sec_1 {
     padding-top: 19%
   }
-}
+} */
 .btns_con,
 .btns_con_1 {
   padding: 12px;
@@ -718,6 +718,14 @@ input[type=checkbox] {
     flex-direction: column
   }
 
+  .co_data_1 {
+    font-size: 29px !important;
+}
+
+.con_sec_1 {
+  padding-top: 27% !important;
+}
+
   .con_p_us_1,
   .container_h1_con,
   .container_p_con {
@@ -731,7 +739,7 @@ input[type=checkbox] {
   }
 
   .home {
-    height: 44em !important
+    height: 35em !important
   }
 
   .img2 {
@@ -3532,4 +3540,41 @@ body:not(.rtl) .elementor-812 .elementor-element.elementor-element-d064c37 {
 }
 
 
+}
+
+@media screen and (min-device-width: 260px) and (max-device-width: 450px) { 
+  .home_hero_para{
+    width: 91% !important;
+    font-size: 20px;
+
+  }
+
+  .home_main {
+    padding-top: 109px !important;
+
+}
+}
+
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1250px) { 
+.logos_admin{
+  font-size: 17px !important;
+
+}
+
+.home_hero_para{
+  font-size: 51px !important;
+
+
+}
+
+.nav-link{
+  font-size: 0.9rem !important;
+
+}
+
+.nav-item{
+  margin-left: 1rem !important;
+
+}
 }
