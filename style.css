@@ -3545,7 +3545,19 @@ body:not(.rtl) .elementor-812 .elementor-element.elementor-element-d064c37 {
 @media screen and (min-device-width: 260px) and (max-device-width: 450px) { 
   .home_hero_para{
     width: 91% !important;
-    font-size: 20px;
+    font-size: 1.8rem;
+
+  }
+
+  .home_main {
+    padding-top: 109px !important;
+
+}
+}
+@media screen and (min-device-width: 451px)  { 
+  .home_hero_para{
+    
+    font-size: 2rem;
 
   }
 
