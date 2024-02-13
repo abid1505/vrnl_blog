@@ -1166,6 +1166,7 @@ input[type=checkbox] {
 
 .D_Block,
 .D_img {
+  height: 100%;
   width: 100%
 }
 
