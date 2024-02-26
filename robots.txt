@@ -1,4 +1,3 @@
 # start of file
 user-agent: *
-disallow: /cgi-bin/
 sitemap: https://sportexchangewhitelabel.com/sitemap.xml
