@@ -369,7 +369,7 @@ input[type=checkbox] {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%
+  width: 50% ;
 }
 
 .Whitelabel_sec,
@@ -809,7 +809,7 @@ input[type=checkbox] {
 
   .about_img,
   .bets_api_img {
-    width: 100%;
+    width: 100% !important;
     height: auto
   }
 
