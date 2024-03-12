@@ -3544,3 +3544,23 @@ body:not(.rtl) .elementor-812 .elementor-element.elementor-element-d064c37 {
   width: 60;
   height: 60;
 }
+.mailbox-ct{
+  margin-left: 8.5rem;
+  color: #FFFFFF;
+}
+.mailbox-ct a{
+  color: #FFFFFF;
+  
+}
+
+@media screen and (max-width:700px) {
+  .mailbox-ct{
+    margin-left: 5.7rem;
+    color: #FFFFFF;
+  }
+  .mailbox-ct a{
+    color: #FFFFFF;
+    
+  }
+
+}
