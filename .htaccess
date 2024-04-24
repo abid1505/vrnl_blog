@@ -25,8 +25,8 @@ ExpiresActive on
  RewriteCond %{HTTP_HOST} ^www\.sportexchangewhitelabel\.com$
 RewriteRule ^/?$ "http\:\/\/sportexchangewhitelabel\.com\/" [R=301,L]
 
-RewriteCond %{HTTP_HOST} !^https://www.sportexchangewhitelabel.com$ [NC]
-RewriteRule ^(.*)$ http://www.sportexchangewhitelabel.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^https://www.cricwhitelabel.com$ [NC]
+RewriteRule ^(.*)$ http://www.cricwhitelabel.com/$1 [L,R=301]
 
 Strict-Transport-Security: max-age=16070400; includeSubDomains
 ServerSignature Off
