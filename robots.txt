@@ -1,3 +1,4 @@
 # start of file
 user-agent: *
-sitemap: https://cricwhitelabel.com/sitemap.xml
+Allow: /site-explorer/$
+Allow:/link-intersect/$
