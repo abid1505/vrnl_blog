@@ -192,7 +192,7 @@ input[type=checkbox] {
 }
 
 .home_hero_para {
-  font-size: 65px;
+  font-size: 60px;
   color: #fff;
   font-weight: 600;
   line-height: 1.5
@@ -3564,6 +3564,100 @@ body:not(.rtl) .elementor-812 .elementor-element.elementor-element-d064c37 {
   }
 
 }
+.text-center{
+  font-size: 13px;
+    color: #706767;
+    font-weight: 600;
+}
 .opacity{
   opacity: 1;
+}
+.partner{
+  text-align: center;
+    color: #656565;
+}
+.text-center::before {
+  position: relative;
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-left: 2px solid rgb(0, 120, 212);
+  border-bottom: 2px solid rgb(0, 120, 212);
+  left: -1px;
+  content: "";
+}
+.text-center::before {
+  left: 0px;
+}
+.sidebar-icon {
+  position: fixed;
+  top: 50%;
+  z-index: 50;
+  left: 0;
+  background: #fff;
+  text-align: center;
+  border-radius: 0 7px 7px 0;
+  padding: 0;
+  box-shadow: 1px 0px 3px #e1e1e1;
+  transition: transform 0.2s;
+}
+.sidebar-icon ul li:first-child a {
+  border-top-right-radius: 7px;
+}
+
+.sidebar-icon ul {
+  margin: 0px;
+}
+.sidebar-icon ul li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+}
+.sidebar-icon ul li a:after {
+  content: "";
+  background: #e1e1e1;
+  width: 70%;
+  height: 0.7px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+}
+.sidebar-icon span.hover-txt {
+  position: absolute;
+  top: 5px;
+  left: 105%;
+  width: max-content;
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  display: none;
+}
+.sidebar-icon ul li a {
+  padding: 8px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 32px;
+  box-sizing: border-box;
+
+}
+.sidebar-icon ul li a {
+  position: relative;
+
+}
+.sidebar-icon ul li a:hover {
+  background: #646fff;
+  color: #fff;
+}
+.sidebar-icon ul li a:hover + span.hover-txt {
+  display: block;
+}
+.svgimage{
+  width: 20px;
 }
